@@ -12,34 +12,58 @@ My code was written according to best practices. I wrote small sections and then
  Researching users’ needs is best. Make your decisions based on data.  Think of what would be advantageous to the user. Forsee patterns and behaviours of projects and user inputs of the past or similiar projects. Whenever possible get instant feedback from users, so that you can incorporate their needs into the program ensuring the best quality you can deliver.
 
 **Included is a zip file of Project One**
+
 Competency
+
 In this project, you will demonstrate your mastery of the following competency:
 
+
 Create unit tests using code to uncover errors
+
 Scenario
+
 You are a software engineer for Grand Strand Systems, a software engineering company that focuses on developing and testing back-end services. You’ve been given an assignment to develop a mobile application for a customer. The customer will provide you with the requirements. Your job is to code up the application and provide unit tests to verify that it meets the customer’s requirements. You will be delivering the contact, task, and appointment services. The purpose of these services is to add, update, and delete contact, task, and appointment objects within the application.
 
+
 Directions
+
 ContactService, TaskService, and AppointmentService Files
 For this assignment, you will incorporate the code and unit tests that you have developed for the mobile application. First, you developed the contact service and contact object, which you completed in the Module Three milestone. Second, you developed the task service and task object, which you completed in the Module Four milestone. Last, you developed the appointment service and appointment object, which you completed in Module Five milestone. Any feedback received on these assignments should be incorporated prior to submitting the files for this final project.
 
+
 You have been asked to code up a mobile application for a client and provide unit tests to verify that it meets the customer’s requirements. In order to do so, you must complete the following:
 
+
 Contact Service: In the Module Three milestone, you developed the contact service. The contact service used in-memory data structures to support storing contacts (no database required). In addition, there was no UI for this assignment. You verified the contact service through JUnit tests. The contact service contained a contact object along with the contact service. The requirements were as follows:
+
 Contact Class Requirements
+
 The contact object shall have a required unique contact ID String that cannot be longer than 10 characters. The contact ID shall not be null and shall not be updatable.
+
 The contact object shall have a required firstName String field that cannot be longer than 10 characters. The firstName field shall not be null.
+
 The contact object shall have a required lastName String field that cannot be longer than 10 characters. The lastName field shall not be null.
+
 The contact object shall have a required phone String field that must be exactly 10 digits. The phone field shall not be null.
+
 The contact object shall have a required address field that must be no longer than 30 characters. The address field shall not be null.
+
 Contact Service Requirements
+
 The contact service shall be able to add contacts with unique ID.
+
 The contact service shall be able to delete contacts per contactId.
+
 The contact service shall be able to update contact fields per contactId. The following fields are updatable:
+
 firstName
+
 lastName
+
 PhoneNumber
+
 Address
+
 Task Service: In the Module Four milestone, you developed the task service. The task service used in-memory data structures to support storing tasks (no database required). In addition, there was no UI for this assignment. You verified the task service through JUnit tests. The task service contained a task object along with the task service. The requirements were as follows:
 Task Requirements
 The task object shall have a required unique task ID String that cannot be longer than 10 characters. The task ID shall not be null and shall not be updatable.
